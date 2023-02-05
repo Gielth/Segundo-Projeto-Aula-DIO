@@ -1,0 +1,102 @@
+body{
+    background:goldenrod;
+    max-width: 900px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    justify-content: center;
+}
+
+
+#header{
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    font-weight: bold;
+    color: green;
+    font-size: 35px;
+    padding: 0;
+    margin: 2.5%;
+    text-align: center;   
+}
+.mainCrest{
+    float: left;
+    width:33.33%;
+}
+.header {
+    width: 66.66%;
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.mainMenu {
+    list-style: none;
+}
+.mainMenu li{
+    display: block;
+    width: 150px;
+    float: left;
+    padding: 15px;
+}
+
+#o_jogo #titulos{
+    float: left;
+    display: table;
+    align-items: center;
+    justify-content: center;
+}
+
+#o_jogo {
+    border: 5px black solid;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    background: darkred;
+    color: darkgray;
+    font-weight: 551;
+    width: 66.66%;
+}
+
+#titulos {
+    border: 5px black solid;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+    background: darkcyan;
+    color: black;
+    font-weight: bold;
+    width: 33.33%;
+}
+
+#Detalhes{
+    border: 5px black solid;
+    background: darkolivegreen;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+
+#Items{
+    border: 5px black solid;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 35px;
+    padding: 0;
+    padding-bottom: 5px;
+}
+
+footer{
+    float: inline-end;
+    align-self: bottom;
+}
