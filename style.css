@@ -13,6 +13,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 10px;
 }
 h1 {
     font-weight: bold;
@@ -36,19 +37,19 @@ h1 {
 
 .mainMenu {
     list-style: none;
+    align-content: center;
 }
 .mainMenu li{
     display: block;
-    width: 150px;
+    width: 120px;
     float: left;
-    padding: 15px;
+    padding: 10px;
+    margin: auto;
 }
 
-#o_jogo #titulos{
+.section1 {
     float: left;
-    display: table;
-    align-items: center;
-    justify-content: center;
+    display: flex;
 }
 
 #o_jogo {
@@ -59,26 +60,27 @@ h1 {
     background: darkred;
     color: darkgray;
     font-weight: 551;
-    width: 66.66%;
+    flex: 66.66%;
 }
 
 #titulos {
     border: 5px black solid;
     padding: 10px;
     margin: 10px;
-    float: right;
+    float: left;
     background: darkcyan;
-    color: black;
+    color: darkred;
     font-weight: bold;
-    width: 33.33%;
+    flex: 33.33%;
 }
 
 #Detalhes{
     border: 5px black solid;
-    background: darkolivegreen;
+    background: olivedrab;
     padding: 10px;
     margin: 10px;
     float: left;
+    color: darkred;
 }
 
 #Items{
@@ -86,6 +88,35 @@ h1 {
     padding: 10px;
     margin: 10px;
     float: left;
+    background: gray;
+    max-width: 900px;
+}
+
+.hylianShield {
+    float: left;
+    width: 33.33%;
+    align-items: center;
+}
+
+.hylianShield img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}   
+
+.masterSword {
+    float: left;
+    width: 66.66%;
+}
+
+.masterSword div{
+    float: left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.masterSwordImg{
+    width: 85%;
 }
 
 h2{
@@ -94,9 +125,27 @@ h2{
     font-size: 35px;
     padding: 0;
     padding-bottom: 5px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    padding: 0;
+    padding-bottom: 5px;
+    margin: 0;
+    margin-bottom: 5px;
 }
 
 footer{
-    float: inline-end;
+    float: left;
     align-self: bottom;
+    text-align: center;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding-left: 10px;
+    color: darkred;
 }
