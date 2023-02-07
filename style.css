@@ -41,10 +41,23 @@ h1 {
 }
 .mainMenu li{
     display: block;
-    width: 120px;
+    width: 180px;
     float: left;
+    text-align: center;
     padding: 10px;
     margin: auto;
+    text-decoration: none;
+}
+
+.mainMenu a{
+    text-decoration: none;
+    color: darkmagenta;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mainMenu a:hover{
+    color: darkred;
 }
 
 .section1 {
@@ -72,6 +85,7 @@ h1 {
     color: darkred;
     font-weight: bold;
     flex: 33.33%;
+    justify-items: center;
 }
 
 #Detalhes{
